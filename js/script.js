@@ -62,7 +62,7 @@ const animalInfo = [
   },
 
   { 
-      className: "animal2",
+    className: "animal2",
     name: "Dumbo", 
     species: "Elefant", 
     age: 8, 
@@ -94,6 +94,8 @@ console.log(animalInfo);
 //    elementet i HTML'en.
 
 // ✏️ Skriv din kode her ↓
+
+const infoboxElement = document.getElementById("zoo-container");
 
 
 
