@@ -147,14 +147,15 @@ animalInfo.forEach(function (animal) {
     //    Afslut hver linje med <br> (undtagen den sidste).
     const animalDetails = `
       <strong>${animal.name}</strong><br>
-      
-
+      Art: ${animal.species}<br>
+      Alder: ${animal.age}<br>
+      Føde: ${animal.food}<br>
       
     `;
 
     // ✏️ Skriv dit funktionskald til funktionen showInfoBox
     //    med animalDetails her ↓
-
+    showInfoBox(animalDetails);
 
   });
 });
