@@ -120,7 +120,7 @@ const infoboxElement = document.getElementById("zoo-container");
   infoboxElement.innerHTML = text;
 
   // ✏️ B. Skriv din kode her ↓
-
+infoboxElement.classList.add("show")
 
 }
 
